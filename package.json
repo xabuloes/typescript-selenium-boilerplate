@@ -1,0 +1,28 @@
+{
+  "name": "platform-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/ts-node ./src/main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xabuloes/platform-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xabuloes/platform-bot/issues"
+  },
+  "homepage": "https://github.com/xabuloes/platform-bot#readme",
+  "dependencies": {
+    "selenium-webdriver": "^4.0.0-alpha.1",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2"
+  },
+  "devDependencies": {
+    "@types/selenium-webdriver": "^3.0.14"
+  }
+}
